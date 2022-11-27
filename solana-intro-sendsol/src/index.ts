@@ -6,7 +6,7 @@ async function main() {
     const connection = new Web3.Connection(Web3.clusterApiUrl('devnet'));
     const payer = await initializeKeypair(connection);
     //await sendSol(connection, 0.1 * Web3.LAMPORTS_PER_SOL, Web3.Keypair.generate().publicKey, payer)
-    const phantom = new Web3.PublicKey("5Dm15QJHT3gjpjLEu86xE1Ggc4qSLFSseonxr6qgDBWn")
+    const phantom = new Web3.PublicKey("9TnCbksb7rFmdN6QfDorR5dynZmMYMSrvF6ESj6AYSSC")
     await sendSol(connection, 0.2 * Web3.LAMPORTS_PER_SOL, phantom, payer)
 }
 
