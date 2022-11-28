@@ -1,3 +1,7 @@
+Buildspace reference:
+[https://buildspace.so/p/solana-core/lessons/build-an-nft-minter-front-end](https://buildspace.so/p/solana-core/lessons/build-an-nft-minter-front-end)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
